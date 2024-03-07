@@ -7,7 +7,7 @@
     <div id="pdfViewer"></div>
     <script>
         var pdfViewer = document.getElementById('pdfViewer');
-        var pdfUrl = "example.pdf";
+        var pdfUrl = "CV_NLK.pdf";
         PDFJS.getDocument(pdfUrl).then(function (pdfDoc) {
             var totalPages = pdfDoc.numPages;
             for (var i = 1; i <= totalPages; i++) {
